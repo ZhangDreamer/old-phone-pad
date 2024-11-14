@@ -1,0 +1,48 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.csproj.user
+
+# Rider / ReSharper / VS Code specific files
+.idea/
+.vscode/
+*.sln.ide/
+.resharper/
+
+# Logs
+*.log
+
+# OS Generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Packages directory
+packages/
+
+# Ignore NuGet packages
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore publish output
+.publish/
+
+# Ignore generated AssemblyInfo
+Properties/AssemblyInfo.cs
+
+# macOS-specific files
+*.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
